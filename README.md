@@ -1,1 +1,0 @@
-# temel-html-web-site
