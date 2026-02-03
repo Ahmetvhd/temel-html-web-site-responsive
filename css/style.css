@@ -136,22 +136,6 @@ header {
     text-align: center;
 }
 
-/* GÜNDÜZ MODU (Varsayılan) */
-:root {
-    --bg-color: #ffffff;      /* Arka plan beyaz */
-    --text-color: #333333;    /* Yazı koyu gri */
-    --border-color: #cccccc;  /* Çizgi rengi */
-    --section-bg: #f9f9f9;    /* Section arka planı */
-}
-
-/* KARANLIK MOD (Sınıf eklendiğinde) */
-[data-theme="dark"] {
-    --bg-color: #1a1a1a;      /* Arka plan siyahımsı */
-    --text-color: #f0f0f0;    /* Yazı açık gri/beyaz */
-    --border-color: #444444;  /* Çizgi rengi daha koyu */
-    --section-bg: #2d2d2d;    /* Section arka planı koyu */
-}
-
 @media screen and (max-width: 426px) {
     
     nav {
