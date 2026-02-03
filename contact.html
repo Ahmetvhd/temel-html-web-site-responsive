@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İletişim | Ahmet Koca ile İletişime Geçin</title>
-    <meta name="description" content="Sorularınız, iş birliği teklifleri veya sadece merhaba demek için bana iletişim formu üzerinden ulaşabilirsiniz.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <meta name="description"
+        content="Sorularınız, iş birliği teklifleri veya sadece merhaba demek için bana iletişim formu üzerinden ulaşabilirsiniz.">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,57 +18,64 @@
         <nav>
             <div class="profile">
                 <img src="img/favicon.png" alt="profile">
-                <p>Ahmet Koca</p>
+                <p><b>Ahmet Koca</b></p>
             </div>
             <ul>
                 <li>
-                    <a href="index.html">Home</a> /
+                    <a href="index.html">Home</a>
                 </li>
+                <span>/</span>
                 <li>
-                    <a href="project.html">Project</a> /
+                    <a href="project.html">Project</a>
                 </li>
+                <span>/</span>
                 <li>
-                    <a href="articles.html">Articles</a> /
+                    <a href="articles.html">Articles</a>
                 </li>
+                <span>/</span>
                 <li>
-                    <a href="contact.html">Contact</a> /
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="hero">
             <h1>İletişim</h1>
-            <p>Bana aşağıdaki kutudan mesajınızı gönderebilirsiniz.Adınızı, soyadınızı ve mail adresinizi yazmayı unutmayın.</p>
+            <p>Bana aşağıdaki kutudan mesajınızı gönderebilirsiniz.Adınızı, soyadınızı ve mail adresinizi yazmayı
+                unutmayın.</p>
         </div>
     </header>
+    <hr>
     <section>
 
-        <h3>Bana Ulaşın</h3>
+        <div class="card">
+            <h3>Bana Ulaşın</h3>
 
-        <form>
-            
-            <div>
-                <label for="ad-soyad">Adınız Soyadınız:</label>
-                <input type="text" id="ad-soyad" name="ad-soyad" placeholder="Örn: Ahmet Koca" required>
-            </div>
+            <form>
 
-            <br>
+                <div>
+                    <label for="ad-soyad">Adınız Soyadınız :</label>
+                    <input type="text" id="ad-soyad" name="ad-soyad" placeholder="Örn: Ahmet Koca" required>
+                </div>
 
-            <div>
-                <label for="eposta">Eposta Adresiniz:</label>
-                <input type="email" id="eposta" name="eposta" placeholder="ornek@gmail.com" required>
-            </div>
+                <br>
 
-            <br>
+                <div>
+                    <label for="eposta">Eposta Adresiniz :</label>
+                    <input type="email" id="eposta" name="eposta" placeholder="ornek@gmail.com" required>
+                </div>
 
-            <div>
-            <label for="mesaj">Mesajınız:</label>
-            <textarea name="mesaj" id="mesaj" rows="3" placeholder="Mesajınızı buraya yazınız"></textarea>
-            </div>
-            <br>
+                <br>
 
-            <button type="submit">Mesajı Gönder</button>
+                <div>
+                    <label for="mesaj">Mesajınız :</label>
+                    <textarea name="mesaj" id="mesaj" rows="3" placeholder="Mesajınızı buraya yazınız"></textarea>
+                </div>
+                <br>
 
-        </form>
+                <button type="submit">Mesajı Gönder</button>
+
+            </form>
+        </div>
 
     </section>
 

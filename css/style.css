@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+h1,
+h3,
+h4,
+h5 {
+    font-family: "Unbounded", sans-serif;
+}
+
+.name,
+.o-title {
+    color: goldenrod;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+}
+
+header {
+    height: 300px;
+}
+
+.hero {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.d-main {
+    line-height: 25px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.d-main section {
+    flex: 1;
+    padding-bottom: 15px;
+}
+
+.d-main section:first-child {
+    border-right: none;
+}
+
+.d-main section hr {
+    width: 100%;
+}
+
+.d-main section h3,
+.d-main section p,
+.d-main section a,
+.d-main section h4,
+.d-main section h5,
+.d-main section ul {
+    padding-left: 30px;
+}
+
+
+.d-main h4 {
+    margin: 20px 0 15px 0;
+}
+
+.d-main h3 {
+    margin: 20px 0 10px 0;
+}
+
+.d-main h5 {
+    margin: 15px 0 10px 0;
+}
+.reviews .name {
+    margin-top: 15px;
+}
+.reviews article {
+    width: 25%;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 50px;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 50px;
+    gap: 70px;
+    line-height: 25px;
+}
+.footer-section h3 {
+    padding-left:50px;
+}
+.footer-section .reviews {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section footer {
+    padding-left: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 426px) {
+    
+    nav {
+        font-size: 0.9rem;
+    }
+
+    nav ul {
+    column-gap: 5px ;
+    }
+
+    .d-main {
+        flex-direction: column;
+    }
+
+    .d-main section:first-child {
+     border: 1px solid black;
+    }
+
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .reviews article {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+
+    .reviews article {
+        width: 32%;
+        
+    }
+}

@@ -6,7 +6,8 @@
     <title>Ana Sayfa - Ahmet Koca Roadmap.sh Frontend Eğitimi</title>
     <meta name="description" content="Yazılım öğrenme sürecinde katıldığım roadmap.sh Frontend eğitim projeleri için oluşturduğum Web Site.">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
     <meta property="og:title" content="Ahmet Koca | Junior Frontend Developer">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Yazılım öğrenme sürecinde katıldığım roadmap.sh Frontend eğitim projeleri için oluşturduğum Web Site.">
@@ -22,28 +23,33 @@
         <nav>
             <div class="profile">
                 <img src="img/favicon.png" alt="profile">
-                <p>Ahmet Koca</p>
+                <p><b>Ahmet Koca</b></p>
             </div>
             <ul>
                 <li>
-                    <a href="index.html">Home</a> /
+                    <a href="index.html">Home</a> 
                 </li>
+                <span>/</span>
                 <li>
-                    <a href="project.html">Project</a> /
+                    <a href="project.html">Project</a>   
                 </li>
+                <span>/</span>
                 <li>
-                    <a href="articles.html">Articles</a> /
+                    <a href="articles.html">Articles</a>   
                 </li>
+                <span>/</span>
                 <li>
-                    <a href="contact.html">Contact</a> /
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="hero">
             <h1>Frontend Developer</h1>
             <p>Ahmetvhd - Kişisel Blog ve Web Gelişim Süreci</p>
+        </div>
     </header>
-    <main>
+    <hr>
+    <main class="d-main">
         <section>
             <h3>Project</h3>
             <p>Yalnızca HTML Portföyü</p>
@@ -56,6 +62,7 @@
             <hr>
             <p>Yemek Sepeti</p>
         </section>
+        <hr>
         <section>
             <h3>İş Deneyimi</h3>
             <p>roadmap.sh</p>
@@ -70,12 +77,13 @@
             </p>
             <a href="https://github.com/Ahmetvhd" target="_blank">GitHub profilimi ziyaret edin</a>
         </section>
+        <hr>
         <section>
             <h3>Eğitim</h3>
             <p>
                 Kodluyoruz Frontend 101 Eğitimini Bitirdim.
             </p>
-            <h4>Gördüğüm Dersler: </h4>
+            <h5>Gördüğüm Dersler : </h5>
             <ul>
                 <li>Herkes İçin Temel Dersler</li>
                 <li>Visual Studio Code Kullanımı</li>
@@ -87,24 +95,27 @@
             </ul>
         </section>
     </main>
-    <section>
+    <hr>
+    <section class="footer-section">
         <h3>Öğretmenlerimin Yorumları</h3>
-        <article>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos sint modi, neque nihil aspernatur ea.</p>
-            <p class="isim">Miraç Şeref</p>
-            <p class="unvan">Tevhid Yazılım</p>
-        </article>
-        <article>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora vel distinctio blanditiis culpa quaerat architecto dignissimos dolorem laborum facere quae!</p>
-            <p class="isim">Metin Mert</p>
-            <p class="unvan">Tevhid Mobile</p>
-        </article>
-        <article>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure consequuntur libero fugit, eveniet reiciendis nihil qui? Perferendis, repellendus?</p>
-            <p class="isim">Eymen Onay</p>
-            <p class="unvan">Tevhid Software</p>
-        </article>
-        <footer>
+        <div class="reviews">
+            <article>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos sint modi, neque nihil aspernatur ea.</p>
+                <p class="name">Miraç Şeref</p>
+                <p class="o-title">Tevhid Yazılım</p>
+            </article>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora vel distinctio blanditiis culpa quaerat architecto dignissimos dolorem laborum facere quae!</p>
+                <p class="name">Metin Mert</p>
+                <p class="o-title">Tevhid Mobile</p>
+            </article>
+            <article>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure consequuntur libero fugit, eveniet reiciendis nihil qui? Perferendis, repellendus?</p>
+                <p class="name">Eymen Onay</p>
+                <p class="o-title">Tevhid Software</p>
+            </article>
+        </div>
+        <footer class="footer">
             <p>© tüm hakları saklıdır 2026</p>
         </footer>
     </section>

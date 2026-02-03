@@ -1,0 +1,14 @@
+article {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    line-height: 25px;
+}
+
+h5 {
+    margin-bottom: 30px;
+}
+
